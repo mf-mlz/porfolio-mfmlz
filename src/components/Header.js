@@ -45,8 +45,8 @@ const Header = () => {
     <header className='py-8'>
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
-            <a href="#">
-              { theme === 'light' ?  (<img src={LogoDark}/>) : (<img src={LogoWhite}/>)}
+            <a href="home">
+              { theme === 'light' ?  (<img src={LogoDark} alt=''/>) : (<img src={LogoWhite} alt=''/>)}
             </a>
             <button onClick={handleThemeSwitch} className='btn btn-sm'>
             {

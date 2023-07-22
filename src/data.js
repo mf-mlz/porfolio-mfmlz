@@ -13,6 +13,7 @@ import SkillImg10 from './assets/img/skills/postman.png';
 import SkillImg11 from './assets/img/skills/reactjs.png';
 import SkillImg12 from './assets/img/skills/tailwind.png';
 import SkillImg13 from './assets/img/skills/visualStudioCode.png';
+import SkillImg14 from './assets/img/skills/netlify.png';
 
 //Projects
 import Project1 from './assets/img/projects/LaboratoriosChela.png';
@@ -61,6 +62,10 @@ export const skills = [
   {
     image: SkillImg13,
   },
+  {
+    image: SkillImg14,
+  },
+
 ];
 
 

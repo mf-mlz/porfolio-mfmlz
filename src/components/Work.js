@@ -28,7 +28,7 @@ const Work = ({ theme }) => {
               Among some small projects that I have done, they range from exercises to small pages made with Bootstrap or Tailwind CSS, also to practice consuming a REST API like Pokemon's, and a small Spotify made with Node JS, Mongo DB and Angular (which is still in development).
               </p>
               <button className='btn btn-sm font-poppins'>
-                <a href='https://mf-mlz.github.io/mf-mlz/proyectos.html' target='_blank'>View Projects</a></button>
+                <a href='https://mf-mlz.github.io/mf-mlz/proyectos.html' target='_blank' rel="noopener noreferrer">View Projects</a></button>
             </div>
             <div className='group relative overflow-hidden border-2 border-black/70 dark:border-white/50 rounded-xl h-96'>
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>

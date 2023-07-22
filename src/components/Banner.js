@@ -68,24 +68,24 @@ const Banner = ({ theme }) => {
                 <button className='btn btn-lg font-poppins' onClick={handleDownload}>
                   Download CV
                 </button>
-                <a href='https://wa.me/7714334090?text=Hola,%20estoy%20interesado%20en%20tu%20CV.' target='_blank' className='font-poppins text-gradient btn-link'>
+                <a href='https://wa.me/7714334090?text=Hola,%20estoy%20interesado%20en%20tu%20CV.' target='_blank' rel="noopener noreferrer" className='font-poppins text-gradient btn-link'>
                   Contact Us
                 </a>
               </div>
               <div className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 text-black dark:text-white'>
-                <a href='https://github.com/mf-mlz' target='_blank'>
+                <a href='https://github.com/mf-mlz' target='_blank' rel="noopener noreferrer">
                   <FaGithub />
                 </a>
-                <a href='https://www.linkedin.com/in/maria-fernanda-martinez-labra-732039161/' target='_blank'>
+                <a href='https://www.linkedin.com/in/maria-fernanda-martinez-labra-732039161/' target='_blank' rel="noopener noreferrer">
                   <FaLinkedin />
                 </a>
-                <a href='https://www.instagram.com/_mf_ml_/' target='_blank'>
+                <a href='https://www.instagram.com/_mf_ml_/' target='_blank' rel="noopener noreferrer">
                   <FaInstagram />
                 </a>
               </div>
           </div>
           <div className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] mx-auto'>
-              <img src={theme === 'dark' ? ImageDark : ImageWhite} />
+              <img src={theme === 'dark' ? ImageDark : ImageWhite} alt='' />
           </div>
         </div>
       </div>

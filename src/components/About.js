@@ -68,7 +68,7 @@ const About = ({ theme }) => {
               </div>
               <div className='flex gap-x-8 items-center'>
                     <button className='btn btn-lg font-poppins' onClick={() => window.location.href = mailtoLink}>Contact Me</button>
-                    <a href='https://github.com/mf-mlz' target='_blank' className='text-gradient btn-link font-poppins'>Visit My Github</a>
+                    <a href='https://github.com/mf-mlz' target='_blank' rel="noopener noreferrer" className='text-gradient btn-link font-poppins'>Visit My Github</a>
                   </div>
             </motion.div>
         </div>
