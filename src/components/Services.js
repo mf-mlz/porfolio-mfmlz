@@ -56,7 +56,7 @@ const Services = ({ theme }) => {
            className='flex-1'>
             <div>
               {services.map((service, index)=>{
-                const {name, description, link } = service;
+                const {name, description } = service;
                 return(
                   <div className='border-b border-black/30 dark:border-white/30  h-[176px] mb-[38px] flex' key={index}>
                     <div className='max-w-[600px] '>
