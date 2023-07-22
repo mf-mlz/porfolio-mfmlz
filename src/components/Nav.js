@@ -3,7 +3,6 @@ import {BiHomeAlt, BiUser} from 'react-icons/bi';
 import {BsClipboardData, BsBriefcase, BsCode} from 'react-icons/bs';
 import { GiSkills } from 'react-icons/gi'
 import { Link } from 'react-scroll';
-import { FaReact } from 'react-icons/fa';
 
 
 const Nav = () => {
